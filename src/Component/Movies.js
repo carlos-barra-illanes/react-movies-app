@@ -6,8 +6,7 @@ import  Content  from "./Content";
 import  Pagination  from "./Pagination";
 
 export default function Movies() {
-  const [genres, setGenres] = useState([]);
-  const [selectedGenres, setSelectedGenres] = useState([]);
+
   const [page, setPage] = useState(1);
   const [content, setContent] = useState([]);
   const [numOfPages, setNumOfPages] = useState();
